@@ -1,0 +1,295 @@
+2023-07-12 17:02:34.895 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Czechowice-Dziedzice, Bielsko-Bialo Kaniow Airfield
+Kod: QEO
+Kraj: PL
+---------------------------------------
+Lotnisko: Gliwice Glider
+Kod: QLC
+Kraj: PL
+---------------------------------------
+
+2023-07-12 17:03:01.627 [AWT-EventQueue-0] ERROR AirportSearchApp1 - Wystąpił nieznany błąd.
+org.json.JSONException: JSONObject["items"] not found.
+	at org.json.JSONObject.get(JSONObject.java:570) ~[json-20220924.jar:?]
+	at org.json.JSONObject.getJSONArray(JSONObject.java:763) ~[json-20220924.jar:?]
+	at AirportSearchApp1.searchAirports(AirportSearchApp1.java:91) ~[classes/:?]
+	at AirportSearchApp1$1.actionPerformed(AirportSearchApp1.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2023-07-12 17:07:29.138 [AWT-EventQueue-0] ERROR AirportSearchApp1 - Wystąpił nieznany błąd.
+org.json.JSONException: JSONObject["items"] not found.
+	at org.json.JSONObject.get(JSONObject.java:570) ~[json-20220924.jar:?]
+	at org.json.JSONObject.getJSONArray(JSONObject.java:763) ~[json-20220924.jar:?]
+	at AirportSearchApp1.searchAirports(AirportSearchApp1.java:91) ~[classes/:?]
+	at AirportSearchApp1$1.actionPerformed(AirportSearchApp1.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2023-07-12 17:07:45.437 [AWT-EventQueue-0] ERROR AirportSearchApp1 - Wystąpił błąd podczas wykonywania żądania HTTP.
+java.net.ConnectException: No route to host: no further information
+	at jdk.internal.net.http.HttpClientImpl.send(HttpClientImpl.java:573) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientFacade.send(HttpClientFacade.java:123) ~[java.net.http:?]
+	at AirportSearchApp1.searchAirports(AirportSearchApp1.java:87) ~[classes/:?]
+	at AirportSearchApp1$1.actionPerformed(AirportSearchApp1.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+Caused by: java.net.ConnectException: No route to host: no further information
+	at jdk.internal.net.http.common.Utils.toConnectException(Utils.java:1047) ~[java.net.http:?]
+	at jdk.internal.net.http.PlainHttpConnection$ConnectEvent.handle(PlainHttpConnection.java:151) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934) ~[java.net.http:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934) ~[java.net.http:?]
+Caused by: java.net.NoRouteToHostException: No route to host: no further information
+	at sun.nio.ch.Net.pollConnect(Native Method) ~[?:?]
+	at sun.nio.ch.Net.pollConnectNow(Net.java:672) ~[?:?]
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:946) ~[?:?]
+	at jdk.internal.net.http.PlainHttpConnection$ConnectEvent.handle(PlainHttpConnection.java:138) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.handleEvent(HttpClientImpl.java:979) ~[java.net.http:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.lambda$run$3(HttpClientImpl.java:934) ~[java.net.http:?]
+	at java.util.ArrayList.forEach(ArrayList.java:1511) ~[?:?]
+	at jdk.internal.net.http.HttpClientImpl$SelectorManager.run(HttpClientImpl.java:934) ~[java.net.http:?]
+2023-07-12 17:08:05.748 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Czechowice-Dziedzice, Bielsko-Bialo Kaniow Airfield
+Kod: QEO
+Kraj: PL
+---------------------------------------
+Lotnisko: Gliwice Glider
+Kod: QLC
+Kraj: PL
+---------------------------------------
+
+2023-07-13 17:05:17.040 [AWT-EventQueue-0] ERROR AirportSearchApp1 - Wystąpił nieznany błąd.
+org.json.JSONException: JSONObject["items"] not found.
+	at org.json.JSONObject.get(JSONObject.java:570) ~[json-20220924.jar:?]
+	at org.json.JSONObject.getJSONArray(JSONObject.java:763) ~[json-20220924.jar:?]
+	at AirportSearchApp1.searchAirports(AirportSearchApp1.java:91) ~[classes/:?]
+	at AirportSearchApp1$1.actionPerformed(AirportSearchApp1.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2023-07-13 17:05:23.617 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Czechowice-Dziedzice, Bielsko-Bialo Kaniow Airfield
+Kod: QEO
+Kraj: PL
+---------------------------------------
+Lotnisko: Gliwice Glider
+Kod: QLC
+Kraj: PL
+---------------------------------------
+
+2023-07-13 17:05:30.580 [AWT-EventQueue-0] WARN  AirportSearchApp1 - Brak dostępnych lotnisk w najbliższym otoczeniu.
+2023-07-13 21:20:49.317 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Kraków, John Paul II   Kraków-Balice
+Kod: KRK
+Kraj: PL
+---------------------------------------
+Lotnisko: Czechowice-Dziedzice, Bielsko-Bialo Kaniow Airfield
+Kod: QEO
+Kraj: PL
+---------------------------------------
+
+2023-07-13 21:21:00.870 [AWT-EventQueue-0] ERROR AirportSearchApp1 - Wystąpił nieznany błąd.
+org.json.JSONException: JSONObject["items"] not found.
+	at org.json.JSONObject.get(JSONObject.java:570) ~[json-20220924.jar:?]
+	at org.json.JSONObject.getJSONArray(JSONObject.java:763) ~[json-20220924.jar:?]
+	at AirportSearchApp1.searchAirports(AirportSearchApp1.java:91) ~[classes/:?]
+	at AirportSearchApp1$1.actionPerformed(AirportSearchApp1.java:51) ~[classes/:?]
+	at javax.swing.AbstractButton.fireActionPerformed(AbstractButton.java:1972) ~[?:?]
+	at javax.swing.AbstractButton$Handler.actionPerformed(AbstractButton.java:2313) ~[?:?]
+	at javax.swing.DefaultButtonModel.fireActionPerformed(DefaultButtonModel.java:405) ~[?:?]
+	at javax.swing.DefaultButtonModel.setPressed(DefaultButtonModel.java:262) ~[?:?]
+	at javax.swing.plaf.basic.BasicButtonListener.mouseReleased(BasicButtonListener.java:279) ~[?:?]
+	at java.awt.Component.processMouseEvent(Component.java:6626) ~[?:?]
+	at javax.swing.JComponent.processMouseEvent(JComponent.java:3389) ~[?:?]
+	at java.awt.Component.processEvent(Component.java:6391) ~[?:?]
+	at java.awt.Container.processEvent(Container.java:2266) ~[?:?]
+	at java.awt.Component.dispatchEventImpl(Component.java:5001) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2324) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948) ~[?:?]
+	at java.awt.LightweightDispatcher.processMouseEvent(Container.java:4575) ~[?:?]
+	at java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516) ~[?:?]
+	at java.awt.Container.dispatchEventImpl(Container.java:2310) ~[?:?]
+	at java.awt.Window.dispatchEventImpl(Window.java:2780) ~[?:?]
+	at java.awt.Component.dispatchEvent(Component.java:4833) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:722) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:716) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:97) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:746) ~[?:?]
+	at java.awt.EventQueue$5.run(EventQueue.java:744) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:399) [?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:86) [?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:743) [?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) [?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) [?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) [?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) [?:?]
+2023-07-13 21:22:26.383 [AWT-EventQueue-0] WARN  AirportSearchApp1 - Brak dostępnych lotnisk w najbliższym otoczeniu.
+2023-07-13 21:22:43.405 [AWT-EventQueue-0] WARN  AirportSearchApp1 - Brak dostępnych lotnisk w najbliższym otoczeniu.
+2023-07-13 21:23:04.173 [AWT-EventQueue-0] WARN  AirportSearchApp1 - Brak dostępnych lotnisk w najbliższym otoczeniu.
+2023-07-13 21:23:58.147 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Moscow, Vnukovo
+Kod: VKO
+Kraj: RU
+---------------------------------------
+Lotnisko: Moscow, Domodedovo
+Kod: DME
+Kraj: RU
+---------------------------------------
+
+2023-07-13 21:25:01.177 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Moscow, Vnukovo
+Kod: VKO
+Kraj: RU
+---------------------------------------
+Lotnisko: Moscow, Domodedovo
+Kod: DME
+Kraj: RU
+---------------------------------------
+Lotnisko: Moscow, Zhukovsky
+Kod: ZIA
+Kraj: RU
+---------------------------------------
+
+2024-01-21 14:10:01.903 [AWT-EventQueue-0] INFO  AirportSearchApp1 - Wynik wyszukiwania lotnisk: 
+Lotnisko: Ioannina 
+Kod: IOA
+Kraj: GR
+---------------------------------------
+
